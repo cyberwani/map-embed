@@ -153,7 +153,7 @@
 				id : 'wp_editgallery',
 				width : '24',
 				height : '24',
-				title : ed.getLang('wordpress.editgallery')
+				title : ed.getLang('wordpress.editgallery') // TODO
 			});
 
 			tinymce.dom.Event.add(editButton, 'mousedown', function(e) {
@@ -168,8 +168,8 @@
 				id : 'wp_delgallery',
 				width : '24',
 				height : '24',
-				title : ed.getLang('wordpress.delgallery')
-			});
+				title : ed.getLang('wordpress.delgallery') // TODO
+ 			});
 
 			tinymce.dom.Event.add(dellButton, 'mousedown', function(e) {
 				var ed = tinymce.activeEditor, el = ed.selection.getNode();
